@@ -14,3 +14,4 @@ class Scrapytest2Item(scrapy.Item):
     title = scrapy.Field()
     rate = scrapy.Field()
     url = scrapy.Field()
+    director = scrapy.Field()
